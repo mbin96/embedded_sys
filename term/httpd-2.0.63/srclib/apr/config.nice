@@ -1,0 +1,28 @@
+#! /bin/sh
+#
+# Created by configure
+
+CC="arm-none-linux-gnueabi-gcc"; export CC
+"/home/mbin96/build/src/term/httpd-2.0.63/srclib/apr/configure" \
+"--target=arm-none-linux-gnueabi" \
+"--build=i686" \
+"--host=arm-none-linux-gnueabi" \
+"--with-included-apr" \
+"--enable-so" \
+"--enable-static-htpasswd" \
+"--enable-static-htdigest" \
+"build_alias=i686" \
+"host_alias=arm-none-linux-gnueabi" \
+"target_alias=arm-none-linux-gnueabi" \
+"CC=arm-none-linux-gnueabi-gcc" \
+"CPP=arm-none-linux-gnueabi-cpp" \
+"--cache-file=/dev/null" \
+"--srcdir=/home/mbin96/build/src/term/httpd-2.0.63/srclib/apr" \
+"--prefix=/usr/local/apache2" \
+"--exec-prefix=/usr/local/apache2" \
+"--libdir=/usr/local/apache2/lib" \
+"--includedir=/usr/local/apache2/include" \
+"--bindir=/usr/local/apache2/bin" \
+"--datadir=/usr/local/apache2" \
+"--with-installbuilddir=/usr/local/apache2/build" \
+"$@"
