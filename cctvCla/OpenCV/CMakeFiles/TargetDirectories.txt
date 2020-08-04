@@ -1,0 +1,3 @@
+/home/mbin96/cleaning/embedded_sys/cctvCla/OpenCV/CMakeFiles/rebuild_cache.dir
+/home/mbin96/cleaning/embedded_sys/cctvCla/OpenCV/CMakeFiles/edit_cache.dir
+/home/mbin96/cleaning/embedded_sys/cctvCla/OpenCV/CMakeFiles/CCTVcla.dir
